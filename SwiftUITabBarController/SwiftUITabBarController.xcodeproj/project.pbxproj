@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F36817F925FC69D800B6A67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36817F825FC69D800B6A67B /* AppDelegate.swift */; };
-		F36817FB25FC69D800B6A67B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36817FA25FC69D800B6A67B /* SceneDelegate.swift */; };
-		F36817FD25FC69D800B6A67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36817FC25FC69D800B6A67B /* ViewController.swift */; };
-		F368180025FC69D800B6A67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36817FE25FC69D800B6A67B /* Main.storyboard */; };
-		F368180225FC69D900B6A67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F368180125FC69D900B6A67B /* Assets.xcassets */; };
-		F368180525FC69D900B6A67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368180325FC69D900B6A67B /* LaunchScreen.storyboard */; };
-		F368180E25FCDAB700B6A67B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368180D25FCDAB700B6A67B /* SecondViewController.swift */; };
+		F355744325FDC6C000114D11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355744225FDC6C000114D11 /* AppDelegate.swift */; };
+		F355744525FDC6C000114D11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355744425FDC6C000114D11 /* SceneDelegate.swift */; };
+		F355744725FDC6C000114D11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355744625FDC6C000114D11 /* ViewController.swift */; };
+		F355744A25FDC6C000114D11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F355744825FDC6C000114D11 /* Main.storyboard */; };
+		F355744C25FDC6C300114D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F355744B25FDC6C300114D11 /* Assets.xcassets */; };
+		F355744F25FDC6C300114D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F355744D25FDC6C300114D11 /* LaunchScreen.storyboard */; };
+		F355745825FDC77600114D11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355745725FDC77600114D11 /* FirstViewController.swift */; };
+		F355745B25FDC9AF00114D11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355745A25FDC9AF00114D11 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F36817F525FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTransitionWayViewCallDiffrentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36817F825FC69D800B6A67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F36817FA25FC69D800B6A67B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F36817FC25FC69D800B6A67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F36817FF25FC69D800B6A67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F368180125FC69D900B6A67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F368180425FC69D900B6A67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F368180625FC69D900B6A67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F368180D25FCDAB700B6A67B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F355743F25FDC6C000114D11 /* SwiftUITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F355744225FDC6C000114D11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F355744425FDC6C000114D11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F355744625FDC6C000114D11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F355744925FDC6C000114D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F355744B25FDC6C300114D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F355744E25FDC6C300114D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F355745025FDC6C300114D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F355745725FDC77600114D11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F355745A25FDC9AF00114D11 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F36817F225FC69D800B6A67B /* Frameworks */ = {
+		F355743C25FDC6C000114D11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +41,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F36817EC25FC69D800B6A67B = {
+		F355743625FDC6C000114D11 = {
 			isa = PBXGroup;
 			children = (
-				F36817F725FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView */,
-				F36817F625FC69D800B6A67B /* Products */,
+				F355744125FDC6C000114D11 /* SwiftUITabBarController */,
+				F355744025FDC6C000114D11 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F36817F625FC69D800B6A67B /* Products */ = {
+		F355744025FDC6C000114D11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F36817F525FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView.app */,
+				F355743F25FDC6C000114D11 /* SwiftUITabBarController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F36817F725FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView */ = {
+		F355744125FDC6C000114D11 /* SwiftUITabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				F36817F825FC69D800B6A67B /* AppDelegate.swift */,
-				F36817FA25FC69D800B6A67B /* SceneDelegate.swift */,
-				F36817FC25FC69D800B6A67B /* ViewController.swift */,
-				F36817FE25FC69D800B6A67B /* Main.storyboard */,
-				F368180125FC69D900B6A67B /* Assets.xcassets */,
-				F368180325FC69D900B6A67B /* LaunchScreen.storyboard */,
-				F368180625FC69D900B6A67B /* Info.plist */,
-				F368180D25FCDAB700B6A67B /* SecondViewController.swift */,
+				F355744225FDC6C000114D11 /* AppDelegate.swift */,
+				F355744425FDC6C000114D11 /* SceneDelegate.swift */,
+				F355744625FDC6C000114D11 /* ViewController.swift */,
+				F355744825FDC6C000114D11 /* Main.storyboard */,
+				F355744B25FDC6C300114D11 /* Assets.xcassets */,
+				F355744D25FDC6C300114D11 /* LaunchScreen.storyboard */,
+				F355745025FDC6C300114D11 /* Info.plist */,
+				F355745725FDC77600114D11 /* FirstViewController.swift */,
+				F355745A25FDC9AF00114D11 /* SecondViewController.swift */,
 			);
-			path = SwiftTransitionWayViewCallDiffrentView;
+			path = SwiftUITabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F36817F425FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView */ = {
+		F355743E25FDC6C000114D11 /* SwiftUITabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F368180925FC69D900B6A67B /* Build configuration list for PBXNativeTarget "SwiftTransitionWayViewCallDiffrentView" */;
+			buildConfigurationList = F355745325FDC6C300114D11 /* Build configuration list for PBXNativeTarget "SwiftUITabBarController" */;
 			buildPhases = (
-				F36817F125FC69D800B6A67B /* Sources */,
-				F36817F225FC69D800B6A67B /* Frameworks */,
-				F36817F325FC69D800B6A67B /* Resources */,
+				F355743B25FDC6C000114D11 /* Sources */,
+				F355743C25FDC6C000114D11 /* Frameworks */,
+				F355743D25FDC6C000114D11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftTransitionWayViewCallDiffrentView;
-			productName = SwiftTransitionWayViewCallDiffrentView;
-			productReference = F36817F525FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView.app */;
+			name = SwiftUITabBarController;
+			productName = SwiftUITabBarController;
+			productReference = F355743F25FDC6C000114D11 /* SwiftUITabBarController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F36817ED25FC69D800B6A67B /* Project object */ = {
+		F355743725FDC6C000114D11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					F36817F425FC69D800B6A67B = {
+					F355743E25FDC6C000114D11 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = F36817F025FC69D800B6A67B /* Build configuration list for PBXProject "SwiftTransitionWayViewCallDiffrentView" */;
+			buildConfigurationList = F355743A25FDC6C000114D11 /* Build configuration list for PBXProject "SwiftUITabBarController" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +115,57 @@
 				en,
 				Base,
 			);
-			mainGroup = F36817EC25FC69D800B6A67B;
-			productRefGroup = F36817F625FC69D800B6A67B /* Products */;
+			mainGroup = F355743625FDC6C000114D11;
+			productRefGroup = F355744025FDC6C000114D11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F36817F425FC69D800B6A67B /* SwiftTransitionWayViewCallDiffrentView */,
+				F355743E25FDC6C000114D11 /* SwiftUITabBarController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F36817F325FC69D800B6A67B /* Resources */ = {
+		F355743D25FDC6C000114D11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F368180525FC69D900B6A67B /* LaunchScreen.storyboard in Resources */,
-				F368180225FC69D900B6A67B /* Assets.xcassets in Resources */,
-				F368180025FC69D800B6A67B /* Main.storyboard in Resources */,
+				F355744F25FDC6C300114D11 /* LaunchScreen.storyboard in Resources */,
+				F355744C25FDC6C300114D11 /* Assets.xcassets in Resources */,
+				F355744A25FDC6C000114D11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F36817F125FC69D800B6A67B /* Sources */ = {
+		F355743B25FDC6C000114D11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F368180E25FCDAB700B6A67B /* SecondViewController.swift in Sources */,
-				F36817FD25FC69D800B6A67B /* ViewController.swift in Sources */,
-				F36817F925FC69D800B6A67B /* AppDelegate.swift in Sources */,
-				F36817FB25FC69D800B6A67B /* SceneDelegate.swift in Sources */,
+				F355744725FDC6C000114D11 /* ViewController.swift in Sources */,
+				F355744325FDC6C000114D11 /* AppDelegate.swift in Sources */,
+				F355744525FDC6C000114D11 /* SceneDelegate.swift in Sources */,
+				F355745B25FDC9AF00114D11 /* SecondViewController.swift in Sources */,
+				F355745825FDC77600114D11 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F36817FE25FC69D800B6A67B /* Main.storyboard */ = {
+		F355744825FDC6C000114D11 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F36817FF25FC69D800B6A67B /* Base */,
+				F355744925FDC6C000114D11 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F368180325FC69D900B6A67B /* LaunchScreen.storyboard */ = {
+		F355744D25FDC6C300114D11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F368180425FC69D900B6A67B /* Base */,
+				F355744E25FDC6C300114D11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F368180725FC69D900B6A67B /* Debug */ = {
+		F355745125FDC6C300114D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		F368180825FC69D900B6A67B /* Release */ = {
+		F355745225FDC6C300114D11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,36 +289,38 @@
 			};
 			name = Release;
 		};
-		F368180A25FC69D900B6A67B /* Debug */ = {
+		F355745425FDC6C300114D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTransitionWayViewCallDiffrentView/Info.plist;
+				DEVELOPMENT_TEAM = 34J4RX3S7Y;
+				INFOPLIST_FILE = SwiftUITabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = negabaro.SwiftTransitionWayViewCallDiffrentView;
+				PRODUCT_BUNDLE_IDENTIFIER = negabaro.SwiftUITabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F368180B25FC69D900B6A67B /* Release */ = {
+		F355745525FDC6C300114D11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTransitionWayViewCallDiffrentView/Info.plist;
+				DEVELOPMENT_TEAM = 34J4RX3S7Y;
+				INFOPLIST_FILE = SwiftUITabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = negabaro.SwiftTransitionWayViewCallDiffrentView;
+				PRODUCT_BUNDLE_IDENTIFIER = negabaro.SwiftUITabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F36817F025FC69D800B6A67B /* Build configuration list for PBXProject "SwiftTransitionWayViewCallDiffrentView" */ = {
+		F355743A25FDC6C000114D11 /* Build configuration list for PBXProject "SwiftUITabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F368180725FC69D900B6A67B /* Debug */,
-				F368180825FC69D900B6A67B /* Release */,
+				F355745125FDC6C300114D11 /* Debug */,
+				F355745225FDC6C300114D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F368180925FC69D900B6A67B /* Build configuration list for PBXNativeTarget "SwiftTransitionWayViewCallDiffrentView" */ = {
+		F355745325FDC6C300114D11 /* Build configuration list for PBXNativeTarget "SwiftUITabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F368180A25FC69D900B6A67B /* Debug */,
-				F368180B25FC69D900B6A67B /* Release */,
+				F355745425FDC6C300114D11 /* Debug */,
+				F355745525FDC6C300114D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F36817ED25FC69D800B6A67B /* Project object */;
+	rootObject = F355743725FDC6C000114D11 /* Project object */;
 }
