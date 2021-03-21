@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftUITabBarController
 //
-//  Created by sehwa kim on 2021/03/21.
+//  Created by sehwa kim on 2021/03/14.
 //
 
 import UIKit
@@ -11,8 +11,40 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+  internal var window: UIWindow?
+  
+  private var myTabBarController: UITabBarController!
+  /*
+   アプリケーション起動時に呼ばれるメソッド.
+   */
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+    window = UIWindow(frame: UIScreen.main.bounds)
+    
+    // Tabに設定するViewControllerのインスタンスを生成.
+    let myFirstTab: UIViewController = FirstViewController()
+    let mySecondTab: UIViewController = SecondViewController()
+    
+    // タブを要素に持つArrayの.を作成する.
+    let myTabs = NSArray(objects: myFirstTab, mySecondTab)
+    //let mySecondTab: UIViewController = SecondViewController()
+    
+    // UITabControllerの作成する.
+    
+    myTabBarController = UITabBarController()
+    // ViewControllerを設定する.
+    
+    myTabBarController?.setViewControllers(myTabs as? [UIViewController], animated: false)
+    
+    // RootViewControllerに設定する.
+    
+    self.window!.rootViewController = myTabBarController
+    
+    self.window!.makeKeyAndVisible()
+    
+
+    
     // Override point for customization after application launch.
     return true
   }
