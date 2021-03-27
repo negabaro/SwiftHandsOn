@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
   
-  @IBAction func moveNext(_ sender: Any){
+
+
+  @IBAction func nextPage(_ sender: Any) {
     guard let uvc = self.storyboard?.instantiateViewController(identifier: "SecondVC") else {
       return
     }
@@ -23,9 +25,7 @@ class ViewController: UIViewController {
     uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
     
     self.present(uvc, animated: true)
-    
   }
-
-
+  
 }
 

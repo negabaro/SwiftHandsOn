@@ -11,15 +11,25 @@ class SecondViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    print("row: SecondViewController")
+    
+    //print("row: SecondViewController")
     // Do any additional setup after loading the view.
   }
-  
-  @IBAction func back(_ sender: Any){
-    self.presentingViewController?.dismiss(animated: true)
     
+  @IBAction func backButton(_ sender: Any) {
+    //back Button押すとエラー
+    //Exception NSException * "-[UIViewController backButton:]: unrecognized selector sent to instance
+    self.presentingViewController?.dismiss(animated: true)
+    print("back button")
+    
+    
+
   }
   
+  @IBAction func back(_ sender: Any) {
+    print("back button2")
+    self.presentingViewController?.dismiss(animated: true)
+  }
   
 }
 

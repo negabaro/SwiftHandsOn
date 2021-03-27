@@ -15,28 +15,102 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc7-vV-hhe">
+                                <rect key="frame" x="140" y="459" width="134" height="38"/>
+                                <state key="normal" title="다음 페이지로 이동"/>
+                                <connections>
+                                    <action selector="nextPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MS9-zU-64b"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="첫번째 화면!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvd-JI-9EY">
+                                <rect key="frame" x="140" y="338" width="179" height="88"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zvd-JI-9EY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2uA-na-gIy"/>
+                            <constraint firstItem="oc7-vV-hhe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3mA-3d-k2B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zvd-JI-9EY" secondAttribute="bottom" constant="403" id="6mr-DV-NbY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oc7-vV-hhe" secondAttribute="trailing" id="Aq1-D7-wwK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zvd-JI-9EY" secondAttribute="trailing" constant="163" id="FJX-g2-vES"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oc7-vV-hhe" secondAttribute="trailing" constant="184" id="Fzs-Wz-lll"/>
+                            <constraint firstItem="zvd-JI-9EY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="394" id="L6r-2p-9Z5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zvd-JI-9EY" secondAttribute="trailing" id="RZD-8R-D10"/>
+                            <constraint firstItem="zvd-JI-9EY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y3f-MQ-saQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zvd-JI-9EY" secondAttribute="trailing" id="YbR-bO-Qz1"/>
+                            <constraint firstItem="zvd-JI-9EY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="163" id="h3l-23-RRS"/>
+                            <constraint firstItem="oc7-vV-hhe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="j1R-id-FoF"/>
+                            <constraint firstItem="zvd-JI-9EY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kJl-MP-hIt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oc7-vV-hhe" secondAttribute="trailing" constant="140" id="kfK-0o-CSf"/>
+                            <constraint firstItem="oc7-vV-hhe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="svl-W1-oNj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oc7-vV-hhe" secondAttribute="bottom" constant="365" id="u01-0j-BRp"/>
+                            <constraint firstItem="oc7-vV-hhe" firstAttribute="top" secondItem="zvd-JI-9EY" secondAttribute="bottom" id="u4F-8k-bw0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oc7-vV-hhe" secondAttribute="bottom" constant="365" id="vzM-E0-PBU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oc7-vV-hhe" secondAttribute="bottom" id="w1X-M6-5Bx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-197" y="94"/>
+            <point key="canvasLocation" x="-197.10144927536234" y="93.75"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="few-aw-gYW">
             <objects>
-                <viewController storyboardIdentifier="SecondVC" id="Kcg-CK-YWk" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondVC" id="Kcg-CK-YWk" customClass="SecondViewController" customModule="SwiftTransitionWayViewCallDiffrentView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fOU-N3-0IR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="두번째 화면!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGk-ay-yvO">
+                                <rect key="frame" x="152" y="438" width="111" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l55-VK-nYI">
+                                <rect key="frame" x="184" y="456" width="79" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="Kcg-CK-YWk" eventType="touchUpInside" id="jJo-O6-SzG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pve-IR-lYk">
+                                <rect key="frame" x="221" y="400" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back2"/>
+                                <connections>
+                                    <action selector="back:" destination="Kcg-CK-YWk" eventType="touchDown" id="jVp-SF-Bvl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ODf-iY-lfc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ODf-iY-lfc" firstAttribute="bottom" secondItem="gGk-ay-yvO" secondAttribute="bottom" id="0JS-wo-wdN"/>
+                            <constraint firstItem="gGk-ay-yvO" firstAttribute="leading" secondItem="ODf-iY-lfc" secondAttribute="leading" constant="152" id="6Le-CL-hNE"/>
+                            <constraint firstItem="ODf-iY-lfc" firstAttribute="trailing" secondItem="gGk-ay-yvO" secondAttribute="trailing" id="BDm-hv-dbc"/>
+                            <constraint firstItem="gGk-ay-yvO" firstAttribute="leading" secondItem="ODf-iY-lfc" secondAttribute="leading" id="IBp-y3-ZI8"/>
+                            <constraint firstItem="gGk-ay-yvO" firstAttribute="top" secondItem="ODf-iY-lfc" secondAttribute="top" constant="394" id="O0s-Hu-RgP"/>
+                            <constraint firstItem="gGk-ay-yvO" firstAttribute="top" secondItem="ODf-iY-lfc" secondAttribute="top" id="ScC-sC-ksg"/>
+                            <constraint firstItem="gGk-ay-yvO" firstAttribute="top" secondItem="ODf-iY-lfc" secondAttribute="top" constant="394" id="V9o-SM-AHt"/>
+                            <constraint firstItem="ODf-iY-lfc" firstAttribute="bottom" secondItem="gGk-ay-yvO" secondAttribute="bottom" constant="403" id="azY-6M-9A1"/>
+                            <constraint firstItem="gGk-ay-yvO" firstAttribute="leading" secondItem="ODf-iY-lfc" secondAttribute="leading" constant="152" id="mH1-OZ-g8b"/>
+                            <constraint firstItem="ODf-iY-lfc" firstAttribute="trailing" secondItem="gGk-ay-yvO" secondAttribute="trailing" constant="151" id="sYF-V2-cO4"/>
+                            <constraint firstItem="ODf-iY-lfc" firstAttribute="trailing" secondItem="gGk-ay-yvO" secondAttribute="trailing" constant="151" id="xuV-jJ-d8X"/>
+                            <constraint firstItem="ODf-iY-lfc" firstAttribute="bottom" secondItem="gGk-ay-yvO" secondAttribute="bottom" constant="403" id="zgj-EG-kLP"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4S-96-hck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-406" y="739"/>
+            <point key="canvasLocation" x="569.56521739130437" y="93.75"/>
         </scene>
     </scenes>
     <resources>
